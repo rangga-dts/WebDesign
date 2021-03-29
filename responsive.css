@@ -1,6 +1,6 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  .lesson {
+  .column {
     width: 50%;
     margin-bottom: 50px;
   }
@@ -16,7 +16,7 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .lesson {
+  .column {
     width: 100%;
   }
   
@@ -28,12 +28,8 @@
     width: 100%;
   }
   
-  .facebook {
-    margin-bottom: 10px;
-  }
-  
   .top-wrapper {
-    text-align: left;
+    text-align: center;
   }
   
   /* Tambahkan CSS untuk header-right */
