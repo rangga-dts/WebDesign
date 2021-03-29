@@ -11,8 +11,13 @@ a {
   text-decoration: none;
 }
 
-.clear {
-  clear: left;
+header {
+  height: 65px;
+  width: 100%;
+  background-color: #1782ed;
+  position :fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .container {
@@ -22,77 +27,9 @@ a {
   margin: 0 auto;
 }
 
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(img/background.jpg);
-  background-size: cover;
-  color: white;
-  text-align: center;
-}
-
-.top-wrapper h1 {
-  font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 5px;
-  color: black;
-}
-
-.top-wrapper p {
-  margin-bottom: 3px;
-  color: black;
-}
-
-.btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
-
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
-}
-
-header {
-  height: 65px;
-  width: 100%;
-  background-color: #a4b0be;
-  position :fixed;
-  top: 0;
-  z-index: 10;
-}
-
 .logo {
   width: 50px;
-  margin-top: 10px;
+  margin-top: 7px;
 }
 
 .header-left {
@@ -107,7 +44,7 @@ header {
 .header-right a {
   line-height: 65px;
   padding: 0 25px;
-  color: #1e90ff;
+  color: black;
   display: block;
   float: left;
   transition: all 0.5s;
@@ -126,34 +63,54 @@ span.menu-icon {
   display: none;
 }
 
-.lesson-wrapper {
-  padding-bottom: 80px;
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-image: url(background.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+  color: black;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+  color: black;
+}
+
+.section {  
+  padding-bottom: 120px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #f7f7f7;
+  background-color: #1782ed;
   text-align: center;
 }
 
 .heading {
   padding-top: 80px;
   padding-bottom: 50px;
-  color: #5f5d60;
+  color: black;
 }
 
 .heading h2 {
   font-weight: normal;
 }
 
-.lesson {
+.column {
   float: left;
   width: 25%;
 }
 
-.lesson-icon {
+.column-icon {
   position: relative;
 }
 
-.lesson-icon img:hover {
+.column-icon img:hover {
   position: relative;
   animation-name: profil;
   animation-duration: 1s;
@@ -171,14 +128,31 @@ span.menu-icon {
   color: #b3aeb5;
 }
 
-.heading h3 {
-  font-weight: normal;
+.clear {
+  clear: left;
 }
 
 .message-wrapper {
   border-bottom: 1px solid #eee;
   padding-bottom: 80px;
   text-align: center;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.btn:hover {
+  opacity: 1;
 }
 
 .message {
@@ -194,12 +168,9 @@ span.menu-icon {
   box-shadow: none;
 }
 
-footer img {
-  width: 125px;
-}
-
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
   text-align: center;
+  background-color: #1782ed;
 }  
